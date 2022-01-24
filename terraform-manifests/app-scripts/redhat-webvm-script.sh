@@ -22,4 +22,4 @@ sudo yum install -y azure-cli
 sudo cd /etc/httpd/conf.d
 sudo az storage blob download -c ${azurerm_storage_container.httpd_files_container.name} -f /etc/httpd/conf.d/app1.conf -n app1.conf --account-name ${azurerm_storage_account.storage_account.name} --account-key ${azurerm_storage_account.storage_account.primary_access_key}
 sudo systemctl reload httpd
-sudo /usr/sbin/setsebool -P httpd_can_network_connect 1 
+sudo/usr/sbin/setsebool -P httpd_can_network_connect 1 

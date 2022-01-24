@@ -1,5 +1,5 @@
-business_division = "HR"
-environment = "DEV"
+business_division = "hr"
+environment = "dev"
 resource_group_name = "rg"
 resource_group_location = "BrazilSouth"
 
