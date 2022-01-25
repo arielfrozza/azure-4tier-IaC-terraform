@@ -1,0 +1,2 @@
+az storage account create -n testeabc123 -g terraform-storage-rg -l brazilsouth --sku Standard_LRS
+az storage account blob-service-properties update -n testeabc123 --enable-versioning true
