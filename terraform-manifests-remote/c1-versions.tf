@@ -17,6 +17,13 @@ terraform {
       version = ">=3.0"
     }
   }
+  # Terraform State Storage to Azure Storage Container
+  backend "azurerm" {
+    resource_group_name   = "terraform-storage-rg"
+    storage_account_name  = "frozzatfstate"
+    container_name        = "tfstatefiles"
+    key                   = "project-1-brazilsouth-terraform.tfstate"
+  }
 }
 
 # Provider Block
