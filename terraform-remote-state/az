@@ -1,2 +1,22 @@
 az storage account create -n testeabc123 -g terraform-storage-rg -l brazilsouth --sku Standard_LRS
 az storage account blob-service-properties update -n testeabc123 --enable-versioning true
+
+Step 01: Create Resource Group
+
+    Resource Group: terraform-storage-rg
+    Region: Brazil South
+
+Step 02: Create Azure Storage Account
+
+    Resource Group: terraform-storage-rg
+    Storage Account Name: frozzatfstate
+    Region: Brazil South
+    Performance: Standard
+    Redundancy: LRS
+    In Data Protection, check the option Enable versioning for blobs
+    REST ALL leave to defaults
+
+Step 03: Create Container in Azure Storage Account
+
+    Name: tfstatefiles
+    Public Access Level: Private (no anonymous access)

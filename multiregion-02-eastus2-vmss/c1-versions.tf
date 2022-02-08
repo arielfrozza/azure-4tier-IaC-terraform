@@ -22,7 +22,7 @@ terraform {
     resource_group_name   = "terraform-storage-rg"
     storage_account_name  = "frozzatfstate"
     container_name        = "tfstatefiles"
-    key                   = "project-1-brazilsouth-terraform.tfstate"
+    key                   = "region-2-eastus2-terraform.tfstate"
   }
 }
 
