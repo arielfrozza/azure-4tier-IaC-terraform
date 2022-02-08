@@ -43,9 +43,9 @@ resource "azurerm_monitor_autoscale_setting" "web_vmss_autoscale" {
     name = "default"
   # Capacity Block     
     capacity {
-      default = 2
-      minimum = 2
-      maximum = 6
+      default = 1
+      minimum = 1
+      maximum = 2
     }
 ###########  START: Percentage CPU Metric Rules  ###########    
   ## Scale-Out 
@@ -194,9 +194,9 @@ resource "azurerm_monitor_autoscale_setting" "web_vmss_autoscale" {
     name = "profile-2-weekdays"
   # Capacity Block     
     capacity {
-      default = 3
-      minimum = 3
-      maximum = 5
+      default = 1
+      minimum = 1
+      maximum = 2
     }
   # Recurrence Block for Week Days (5 days)
     recurrence {
@@ -351,9 +351,9 @@ resource "azurerm_monitor_autoscale_setting" "web_vmss_autoscale" {
     name = "profile-3-weekends"
   # Capacity Block     
     capacity {
-      default = 3
-      minimum = 3
-      maximum = 6
+      default = 1
+      minimum = 1
+      maximum = 2
     }
   # Recurrence Block for Weekends (2 days)
     recurrence {
@@ -510,9 +510,9 @@ resource "azurerm_monitor_autoscale_setting" "web_vmss_autoscale" {
     name = "profile-4-fixed-profile"
   # Capacity Block     
     capacity {
-      default = 5
-      minimum = 5
-      maximum = 20
+      default = 1
+      minimum = 1
+      maximum = 2
     }
   # Fixed Block for a specific day
     fixed_date {
