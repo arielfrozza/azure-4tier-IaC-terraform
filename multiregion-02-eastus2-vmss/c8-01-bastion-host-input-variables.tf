@@ -1,3 +1,4 @@
+/*
 # Bastion Linux VM Input Variables Placeholder file.
 variable "bastion_service_subnet_name" {
   description = "Bastion Service Subnet Name"
@@ -9,3 +10,4 @@ variable "bastion_service_address_prefixes" {
   default = ["10.1.101.0/24"]
 }
 
+*/
