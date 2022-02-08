@@ -5,7 +5,7 @@ Explore Terraform on Azure by building a 4-Tier network system design with 20+ A
 
 ![Image](architecture_image.jpg)
 
-<img width="600" alt="architecture image" src="https://github.com/arielfrozza/azure-4tier-IaC-terraform/blob/main/architecture_image.jpg">
+<img width="600" style="margin-right: 10px;" alt="architecture image" src="https://github.com/arielfrozza/azure-4tier-IaC-terraform/blob/main/architecture_image.jpg">
 
 ## Azure Services
 01. Resource Group
