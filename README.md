@@ -3,7 +3,7 @@ Explore Terraform on Azure by building a 4-Tier network system design with 20+ A
 
 # Terraform on Azure with IaC DevOps and SRE | Real-World 25 Demos
 
-[![Image](architecture_diagram-Page-3.jpg "Terraform on Azure with IaC DevOps and SRE")](https://links.stacksimplify.com/terraform-on-azure-with-iac-devops-sre)
+![Image](architecture_image.jpg)
 
 ## Azure Services
 01. Resource Group
